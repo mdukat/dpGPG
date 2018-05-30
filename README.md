@@ -3,10 +3,10 @@
 
 d3s's Physical GPG - a toolchain for making physical gpg private key
 
-## Idea:
+## The idea:
 You know that feel when you are working on your laptop in McDonald or whatever and you are reading mails from your friends who are into encryption, so they send you GPG-encrypted emails, and suddenly some guy tries to steal your laptop with your private GPG key? No? Me too.
 
-Idea behind dpGPG is that you can work with your private GPG key only when there is connected special pendrive into one of USB ports of your laptop/PC. Also you can work with your GPG-encrypted files on pendrive buffer so when you unplug the pendrive, there is no decrypted data on your laptop.
+Idea behind dpGPG is that you can work with your private GPG key only when there is connected special pendrive into one of USB the ports of your laptop/PC. Also you can work with your GPG-encrypted files on pendrive buffer so when you unplug the pendrive, there is no decrypted data on your laptop.
 
 ## Requirements:
 ### Hardware:
@@ -19,4 +19,5 @@ Idea behind dpGPG is that you can work with your private GPG key only when there
 - make
 
 ## Special thanks to:
+- [@lorow](https://github.com/lorow) for help with translation and being a cool guy
 - [@Synnek1337](https://github.com/SynneK1337) for creating cool logo for project
