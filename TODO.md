@@ -20,3 +20,11 @@ TODO:
 - [ ] automatically mount:
   - [ ] secring partition in /tmp/dpGPG/secring as read-only
   - [ ] encryption buffer in /tmp/dpGPG/buffer as read-write
+
+# Misc
+
+TODO:
+- [ ] add some things to readme
+  - [ ] compilation
+  - [ ] installation
+  - [ ] usage
