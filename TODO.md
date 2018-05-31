@@ -1,18 +1,19 @@
 # dpGPG - Pendrive Generator
 
 TODO:
-- [ ] Cut code into libraries (like mbr.cpp, highlevel.cpp, or something)
-- [ ] Make code *prettier*
-- [ ] Do something with these system() things, check if command goes right, and stuff
+- [x] Cut code into libraries (like mbr.cpp, highlevel.cpp, or something)
+- [x] Make code *prettier*
+- [x] Do something with these system() things, check if command goes right, and stuff
 - [ ] Make protection questions ("Are you sure about that device" etc)
 - [x] Don't kill another pendrive
 - [ ] Maybe comment a bit more the code in dense places
 - [ ] Make partition_table_gen() more dynamic (as in change the input arguments and function to calculate space for encryption buffer and secring)
-- [ ] Add dpGPG "Magic bytes" to let system daemon know that it is the dpGPG and it have to do stuff with it
-- [ ] Change /tmp/dpGPG folder to /tmp/dpGPG/pen-generator
+- [x] Add dpGPG "Magic bytes" to let system daemon know that it is the dpGPG and it have to do stuff with it
+- [x] Change /tmp/dpGPG folder to /tmp/dpGPG/pen-generator
 - [ ] Make sure that md5/sha256/whatever hashes of secring on laptop and pendrive are the same
 - [ ] Add option to ask if want to overwrite pendrive with 0x00's before dpGPG init key installation
-- [ ] Copy and ask if want to remove secring
+- [x] Copy secring onto 1MB partition
+- [ ] Ask if want to remove local secring
 
 # dpGPG - System Daemon
 
