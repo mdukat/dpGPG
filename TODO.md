@@ -12,6 +12,7 @@ TODO:
 - [ ] Change /tmp/dpGPG folder to /tmp/dpGPG/pen-generator
 - [ ] Make sure that md5/sha256/whatever hashes of secring on laptop and pendrive are the same
 - [ ] Add option to ask if want to overwrite pendrive with 0x00's before dpGPG init key installation
+- [ ] Copy and ask if want to remove secring
 
 # dpGPG - System Daemon
 
