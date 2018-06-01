@@ -30,6 +30,6 @@ TODO:
 
 TODO:
 - [ ] Add some things to readme
-  - [ ] Compilation
+  - [x] ~~Compilation~~ Build
   - [ ] Installation
   - [ ] Usage
