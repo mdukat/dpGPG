@@ -32,4 +32,5 @@ TODO:
 - [ ] Add some things to readme
   - [x] ~~Compilation~~ Build
   - [ ] Installation
-  - [ ] Usage
+  - [x] Usage
+- [ ] Cut readme into pieces (eg. installation_and_usage.md) (isn't it too long?)
