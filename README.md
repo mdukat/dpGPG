@@ -8,6 +8,8 @@ You know that feel when you are working on your laptop in McDonald or whatever a
 
 Idea behind dpGPG is that you can work with your private GPG key only when there is connected special pendrive into one of USB the ports of your laptop/PC. Also you can work with your GPG-encrypted files on pendrive buffer so when you unplug the pendrive, there is no decrypted data on your laptop.
 
+(If you want stable version of dpGPG, see "master" branch. Else you can find development files in "devel" branch.)
+
 ## Requirements:
 ### Hardware:
 - Literally any GNU/Linux distribution which runs systemd-like daemons or something (idk im still learning)
