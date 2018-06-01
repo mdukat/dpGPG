@@ -7,7 +7,7 @@
 int main()
 {
     init();
-    syslog(LOG_NOTICE, "")
+    syslog(LOG_NOTICE, "dpGPG-daemon init completed!");
 
     int i = 0;
 
