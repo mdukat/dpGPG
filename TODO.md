@@ -18,15 +18,18 @@ TODO:
 # dpGPG - System Daemon
 
 TODO:
-- [ ] dmenu notification when "dpGPG" pendrive is connected
-- [ ] automatically mount:
-  - [ ] secring partition in /tmp/dpGPG/secring as read-only
-  - [ ] encryption buffer in /tmp/dpGPG/buffer as read-write
+- [ ] ~~dmesg notification when "dpGPG" pendrive is connected~~ Syslog notification system
+- [ ] Check every 10sec if new device is connected
+- [ ] Add config file
+  - [ ] Ask if want to push notifications to *notify-send*
+- [ ] Automatically mount:
+  - [ ] Secring partition in /tmp/dpGPG/secring as read-only
+  - [ ] Encryption buffer in /tmp/dpGPG/buffer as read-write
 
 # Misc
 
 TODO:
-- [ ] add some things to readme
-  - [ ] compilation
-  - [ ] installation
-  - [ ] usage
+- [ ] Add some things to readme
+  - [ ] Compilation
+  - [ ] Installation
+  - [ ] Usage
