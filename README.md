@@ -37,6 +37,48 @@ chmod +x build.sh
 ./build.sh
 ```
 
+## Installation:
+__TODO__
+
+## Usage:
+### dpGPG-pendrive-generator
+If you're executing dpGPG-pendrive-generator without arguments, there will be information about usage:
+```
+d3s@hostname:~/dpGPG/bin$ ./dpGPG-pendrive-generator 
+dpGPG pendrive generator by Mateusz d3s Dukat
+./dpGPG <pendrive_device> <full_path_to_secring.gpg>
+```
+
+dpGPG-pendrive-generator as arguments takes pendrive device (*not partition!*) (eg. /dev/sdg, not /dev/sdg1) and full path to your secring.gpg file (eg. /home/d3s/.gnupg/secring.gpg).
+
+Standard output should look something like this:
+```
+d3s@hostname:~/dpGPG/bin$ sudo ./dpGPG-pendrive-generator /dev/sdg /home/d3s/.gnupg/secring.gpg 
+Generating MBR and partition table...
+Putting generated MBR on drive...
+Syncing drives...
+Formatting and mounting 1MB partition...
+mkfs.fat 3.0.28 (2015-05-16)
+Putting secring.gpg on pendrive...
+Clearing stuff...
+Work done. Have a nice day :P
+```
+
+With that done, your pendrive should be partitioned and formatted with everything done.
+
+#### Errors:
+dpGPG-pendrive-generator can raise errors when something goes wrong. In most cases all you have to do is add *sudo* before command becouse dpGPG-pendrive-generator needs root privilages to partition, format and mount pendrive device.
+```
+d3s@hostname:~/dpGPG/bin$ ./dpGPG-pendrive-generator /dev/sdg /home/d3s/.gnupg/secring.gpg 
+Failed to open device!
+d3s@hostname:~/dpGPG/bin$ sudo !!
+Generating MBR and partition table...
+Putting generated MBR on drive...
+```
+
+### dpGPG-daemon
+dpGPG-daemon should run in background as service, everything works automatically.
+
 ## Special thanks to:
 - [@lorow](https://github.com/lorow) for help with translation and being a cool guy
 - [@Synnek1337](https://github.com/SynneK1337) for creating cool logo for project
