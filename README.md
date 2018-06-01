@@ -18,7 +18,24 @@ Idea behind dpGPG is that you can work with your private GPG key only when there
 
 ### Software:
 - g++
-- make
+
+## Build:
+Simply copy and paste these commands to clone latest stable branch and compile it:
+```
+git clone https://github.com/d3suu/dpGPG.git
+cd dpGPG
+chmod +x build.sh
+./build.sh
+```
+Your binaries will be in ./bin directory.
+
+If you want to download latest development version, simply copy these commands:
+```
+git clone -b devel https://github.com/d3suu/dpGPG.git
+cd dpGPG
+chmod +x build.sh
+./build.sh
+```
 
 ## Special thanks to:
 - [@lorow](https://github.com/lorow) for help with translation and being a cool guy
