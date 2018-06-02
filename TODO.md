@@ -19,7 +19,11 @@ TODO:
 
 TODO:
 - [ ] ~~dmesg notification when "dpGPG" pendrive is connected~~ Syslog notification system
-- [ ] Check every 10sec if new device is connected
+- [ ] ~~Check every 10sec if new device is connected~~
+  - Every 10 seconds
+    - [ ] Check if anything changed in /dev/disk/by-id/usb-*
+    - [ ] If changed, check first 6 bytes of drive (should be "x00,dpgpg")
+    - [ ] If magic bytes matches, mount drives
 - [ ] Add config file
   - [ ] Ask if want to push notifications to *notify-send*
 - [ ] Automatically mount:
