@@ -28,9 +28,13 @@ TODO:
   - [ ] Ask if want to push notifications to *notify-send*
   - [ ] Ask if want to mount Encryption Buffer partition
   - [ ] Set refresh time (instead of static 10 seconds)
+  - [ ] Set local .gnupg directory for linking
 - [ ] Automatically mount:
   - [ ] Secring partition in /tmp/dpGPG/secring as read-only
   - [ ] Encryption buffer in /tmp/dpGPG/buffer as read-write
+- [ ] After mount:
+  - [ ] Link /tmp/dpGPG/secring.gpg to local .gnupg directory
+  - [ ] (If /media exists) Link /tmp/dpGPG/buffer to /media/dpGPG
 
 # Misc
 
