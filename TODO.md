@@ -26,6 +26,8 @@ TODO:
     - [ ] If magic bytes matches, mount drives
 - [ ] Add config file
   - [ ] Ask if want to push notifications to *notify-send*
+  - [ ] Ask if want to mount Encryption Buffer partition
+  - [ ] Set refresh time (instead of static 10 seconds)
 - [ ] Automatically mount:
   - [ ] Secring partition in /tmp/dpGPG/secring as read-only
   - [ ] Encryption buffer in /tmp/dpGPG/buffer as read-write
