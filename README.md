@@ -77,7 +77,7 @@ Putting generated MBR on drive...
 ```
 
 ### dpGPG-daemon
-dpGPG-daemon should run in background as service, everything works automatically.
+dpGPG-daemon should run in background as service after installation. Everything works automatically.
 
 ## Special thanks to:
 - [@lorow](https://github.com/lorow) for help with translation and being a cool guy
