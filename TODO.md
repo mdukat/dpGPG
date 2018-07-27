@@ -32,9 +32,11 @@ TODO:
 - [ ] Automatically mount:
   - [ ] Secring partition in /tmp/dpGPG/secring as read-only
   - [ ] Encryption buffer in /tmp/dpGPG/buffer as read-write
+  - [ ] Script partition in /tmp/dpGPG/script as read-only
 - [ ] After mount:
   - [ ] Link /tmp/dpGPG/secring.gpg to local .gnupg directory
   - [ ] (If /media exists) Link /tmp/dpGPG/buffer to /media/dpGPG
+  - [ ] Run "autorun.sh" from /tmp/dpGPG/script
 
 # Misc
 
